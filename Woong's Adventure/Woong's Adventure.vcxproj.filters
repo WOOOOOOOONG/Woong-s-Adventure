@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\controller">
+      <UniqueIdentifier>{3d405068-0281-428d-b217-5adb34751a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\model">
+      <UniqueIdentifier>{44419284-fc7d-4591-830c-2f47f948853a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\model\monster">
+      <UniqueIdentifier>{f7f1cb21-330e-4025-b4fb-88632cf64cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\model\soldier">
+      <UniqueIdentifier>{88a273c9-b6c5-4af2-b3e9-1868741bc50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\view">
+      <UniqueIdentifier>{fbd61840-c687-47a9-addb-666d2e7de210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\controller">
+      <UniqueIdentifier>{424e8702-0513-4245-a6c9-c8bc84e877e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\model">
+      <UniqueIdentifier>{01788720-bf91-4e54-90a7-dc4d684ddc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\view">
+      <UniqueIdentifier>{f1b4bbb5-3f1c-444d-a2cb-29287355ee7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\model\monster">
+      <UniqueIdentifier>{8ce7d071-1dc1-47e9-bf1f-1c3de86741b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\model\soldier">
+      <UniqueIdentifier>{46b5e4f3-1dd3-4ac2-9ba3-1c8b913056ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Warrior.h">
+      <Filter>헤더 파일\model\soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Magician.h">
+      <Filter>헤더 파일\model\soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>헤더 파일\model\soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Bear.h">
+      <Filter>헤더 파일\model\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>헤더 파일\model\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>헤더 파일\model\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>헤더 파일\model\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>헤더 파일\model\soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>헤더 파일\view</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>헤더 파일\controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\model\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Bear.cpp">
+      <Filter>소스 파일\model\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>소스 파일\model\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>소스 파일\model\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>소스 파일\model\soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Magician.cpp">
+      <Filter>소스 파일\model\soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Solider.cpp">
+      <Filter>소스 파일\model\soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>소스 파일\model\soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>소스 파일\view</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>소스 파일\controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\images\soldier-work1.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
