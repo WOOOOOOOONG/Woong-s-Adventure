@@ -2,7 +2,8 @@
 갑자기 나타난 드래곤에게 마을을 빼앗겨 다시 마을을 탈환하고 공주를 구출하기 위해 여행을 떠나는 웅이의 모험을 C++ 콘솔로 나타낸 게임
 
 ## 개발 환경
-Microsoft Visual Studio 2017 
+C++  
+[Microsoft Visual Studio 2017 community](https://visualstudio.microsoft.com/ko/thank-you-downloading-visual-studio/?sku=Community&rel=15&rr=https%3A%2F%2Fdocs.microsoft.com%2Fko-kr%2Fvisualstudio%2Freleasenotes%2Fvs2017-relnotes) 
 
 ## 게임 스토리
 Woong 아일랜드는 평화로운 세계입니다.  
