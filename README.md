@@ -2,8 +2,8 @@
 C++ 프로그래밍 언어를 사용해 Visual Studio 내 Console만으로 여러가지 동작을 조합해 만든 간단한 RPG 게임입니다.
 
 ## 개발 환경
-C++  
-[Microsoft Visual Studio 2017 community](https://visualstudio.microsoft.com/ko/thank-you-downloading-visual-studio/?sku=Community&rel=15&rr=https%3A%2F%2Fdocs.microsoft.com%2Fko-kr%2Fvisualstudio%2Freleasenotes%2Fvs2017-relnotes) 
+Language : C++  
+Tool     :[Microsoft Visual Studio 2017 community](https://visualstudio.microsoft.com/ko/thank-you-downloading-visual-studio/?sku=Community&rel=15&rr=https%3A%2F%2Fdocs.microsoft.com%2Fko-kr%2Fvisualstudio%2Freleasenotes%2Fvs2017-relnotes) 
 
 ## 게임 스토리
 Woong 아일랜드는 평화로운 세계입니다.  
